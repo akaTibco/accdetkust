@@ -11,6 +11,7 @@ spec:
     protocol: TCP
     port: 9082
     targetPort: 9082
+    nodePort: 33133
   selector:
     app: details-svc
   type: NodePort
