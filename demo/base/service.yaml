@@ -7,9 +7,9 @@ metadata:
     service: details-svc
 spec:
   ports:
-  - name: http
+  - nodePort: http
     protocol: TCP
-    nodePort: 33133
+    nodePort: 31234
   selector:
     app: details-svc
   type: NodePort
