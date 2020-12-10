@@ -8,6 +8,7 @@ metadata:
 spec:
   ports:
   - nodePort: 31234
+    port: 9082
   selector:
     app: details-svc
   type: NodePort
