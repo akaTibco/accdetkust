@@ -7,4 +7,4 @@ resources:
 images:
 - name: details
   newName: 172.31.29.169:8083/details
-  newTag: 1.0.0
+  newTag: 1.0.1
